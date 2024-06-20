@@ -1,0 +1,42 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 15%;
+    max-height: 20%;
+    border: 15px solid white;
+    background: linear-gradient(111.37deg, #0E8047 -6.56%, #60A82A 102.1%);
+    color: white;
+    align-items: center;
+    /* justify-content: center;  */
+    border-radius: 75px;
+
+}
+
+.logo {
+    width: 412px ;
+    height: 38px ;
+    cursor: pointer;
+    padding: 135px;
+}
+
+.exit {
+    padding: 250px;
+    cursor: pointer;
+}
+
+.mytext {
+    text-decoration: none;
+    color: #FFFFFF !important; 
+    font-size: 25px !important;
+    cursor: pointer;
+    transition: opacity 200ms ease !important;
+    padding: 50px;
+}
+
+.mytext:hover{
+    opacity: 0.6;
+}

@@ -1,0 +1,12 @@
+.map{
+position: absolute;
+width: 1112px;
+height: 460px;
+left: 89px;
+top: 207px;
+left: calc(50% - 1112px/2);
+
+background: #EFEFEF;
+border-radius: 30px;
+
+}
