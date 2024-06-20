@@ -55,7 +55,7 @@ export default function Map() {
         object.scale.set(0.016, 0.016, 0.016)
         object.position.set(30,-20, -60)
         object.rotation.set(-0.47 ,0.2, 0.4)
-        object.translateX(-220)
+        object.translateX(-170)
 
         container.add(object)
       },
