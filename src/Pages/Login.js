@@ -37,13 +37,7 @@ export const Login = () => {
   }
 
   return(
-    // <div >
-    //   <img className='img' src={img}></img>
-    //   <img className='logo' src={logo2}></img>
-    //   <input className='input_name' type="text" name="key" placeholder="Введите имя" />
-    //   <input className='input_password' type="text" name="key" placeholder="Введите ключ" />
-    //   <button className='button'>Войти</button>
-    // </div>
+  
     <div>
     <form onSubmit={handleSubmitEvent}>
     <img className='img' src={img}></img>
@@ -68,12 +62,15 @@ export const Login = () => {
           value={password}
           required
         />
+          <div className='text_forget'>Забыли пароль?</div>
       </div>
+    
       <div >
         <button  type="submit" className='button' >
           Войти
-        </button>
+        </button><div className='text_registr'>Зарегистрироваться</div>
       </div>
+      
       </div>
     </form>
   </div>

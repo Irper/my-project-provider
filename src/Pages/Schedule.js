@@ -1,6 +1,6 @@
 import React, {Component, useEffect, useState} from 'react'
 import DayCard from './DayCard'
-import img1 from "../img/Frame 4.svg"
+import img1 from "../img/Frame 4.svg";
 import "./Schedule.css"
 
 
@@ -16,15 +16,17 @@ import "./Schedule.css"
   },[null]) 
   console.log(days.length)
     return (
-      <img className='img' src={img1}/>
 
+<div className='image_svg'>
+<img src = {img1} className="image_svg"/>
+</div>
 
         // <div>
         //   { days.map(e=>
         //                 <div>
-        //                     <div>{e.date}</div>
         //                     <DayCard day={e}/>
         //                 </div>)}
+
         // </div> 
     )} 
    
